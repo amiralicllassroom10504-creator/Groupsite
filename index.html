@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>هوش مصنوعی</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🤖 هوش مصنوعی چیست؟</h1>
+    <p>پروژهٔ درس کامپیوتر - پایهٔ دهم - هنرستان فنی و حرفه‌ای</p>
+    <button id="theme-btn">تغییر حالت شب/روز 🌙</button>
+  </header>
+
+  <nav>
+    <a href="#intro">معرفی</a>
+    <a href="#types">انواع</a>
+    <a href="#uses">کاربردها</a>
+    <a href="#pros">مزایا و چالش‌ها</a>
+    <a href="#quiz">آزمون</a>
+    <a href="#team">سازندگان</a>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>معرفی هوش مصنوعی</h2>
+      <p>
+        هوش مصنوعی (Artificial Intelligence یا به‌اختصار AI) شاخه‌ای از علوم کامپیوتر است
+        که هدفش ساختن سیستم‌هایی است که بتوانند کارهایی انجام بدهند که معمولاً به هوش انسان
+        نیاز دارد؛ مثل یادگیری، تصمیم‌گیری، فهمیدن زبان، تشخیص تصویر و حل مسئله.
+      </p>
+      <p>
+        مفهوم هوش مصنوعی از حدود دههٔ ۱۹۵۰ میلادی مطرح شد و امروز در گوشی، اینترنت،
+        پزشکی، صنعت و خیلی جاهای دیگر استفاده می‌شود.
+      </p>
+    </section>
+
+    <section id="types">
+      <h2>انواع هوش مصنوعی</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>🎯 هوش مصنوعی محدود</h3>
+          <p>فقط یک کار مشخص انجام می‌دهد، مثل پیشنهاد فیلم یا تشخیص چهره. تقریباً تمام هوش‌های مصنوعی امروز از این نوع هستند.</p>
+        </div>
+        <div class="card">
+          <h3>🧠 هوش مصنوعی عمومی</h3>
+          <p>هوشی در سطح انسان که بتواند هر کاری را یاد بگیرد. هنوز به‌طور کامل ساخته نشده و موضوع تحقیقات است.</p>
+        </div>
+        <div class="card">
+          <h3>📈 یادگیری ماشین</h3>
+          <p>روشی که در آن کامپیوتر از روی داده‌ها و مثال‌ها یاد می‌گیرد، نه فقط از روی دستورهای ثابت.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="uses">
+      <h2>کاربردهای هوش مصنوعی</h2>
+      <ul>
+        <li>🏥 <strong>پزشکی:</strong> کمک به تشخیص بیماری از روی عکس‌های پزشکی</li>
+        <li>🚗 <strong>خودروها:</strong> خودروهای خودران و کمک‌راننده</li>
+        <li>📱 <strong>گوشی:</strong> دستیار صوتی، ترجمه و فیلتر دوربین</li>
+        <li>🎓 <strong>آموزش:</strong> کمک به یادگیری و پاسخ به سؤال‌ها</li>
+        <li>🏭 <strong>صنعت:</strong> ربات‌های کارخانه و کنترل کیفیت</li>
+        <li>🎮 <strong>بازی:</strong> رفتار هوشمند شخصیت‌های بازی</li>
+      </ul>
+    </section>
+
+    <section id="pros">
+      <h2>مزایا و چالش‌ها</h2>
+      <div class="two-col">
+        <div class="box good">
+          <h3>✅ مزایا</h3>
+          <ul>
+            <li>سرعت و دقت بالا</li>
+            <li>کمک به انجام کارهای تکراری</li>
+            <li>دسترسی ۲۴ ساعته</li>
+            <li>کمک به پیشرفت علم و پزشکی</li>
+          </ul>
+        </div>
+        <div class="box bad">
+          <h3>⚠️ چالش‌ها</h3>
+          <ul>
+            <li>امکان اشتباه و اطلاعات نادرست</li>
+            <li>نگرانی دربارهٔ حریم خصوصی</li>
+            <li>تغییر در بعضی شغل‌ها</li>
+            <li>نیاز به استفادهٔ مسئولانه</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="quiz">
+      <h2>آزمون کوچک 📝</h2>
+      <p>سؤال: کدام گزینه یک نمونه از کاربرد هوش مصنوعی است؟</p>
+      <div class="options">
+        <button class="opt" data-correct="false">ماشین‌حساب ساده</button>
+        <button class="opt" data-correct="true">دستیار صوتی گوشی</button>
+        <button class="opt" data-correct="false">چراغ قوه</button>
+      </div>
+      <p id="quiz-result"></p>
+    </section>
+
+    <section id="team">
+      <h2>سازندگان پروژه</h2>
+      <p class="teacher">👨‍🏫 معلم راهنما: <strong>آقای قیصری</strong></p>
+      <p>اعضای گروه که روی این پروژه کار کرده‌اند:</p>
+      <div class="cards members">
+        <div class="card">👤 امیرعلی عامری</div>
+        <div class="card">👤 محمدامین فرهانی</div>
+        <div class="card">👤 سهیل سلطانی</div>
+        <div class="card">👤 ماهان احمدی</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>پروژهٔ درس کامپیوتر - پایهٔ دهم - ۱۴۰۵</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
